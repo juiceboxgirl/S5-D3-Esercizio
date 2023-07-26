@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  max-width: 1200px;
+  max-height: 1080px;
+  margin: 2em;
+}
+
+.productCard {
+  display: flex;
+  width: 696px;
+  height: 993px;
+  background-color: #fbf7e3;
+  border-radius: 250px;
+}
+
+.imgHoney {
+  object-fit: cover;
+
+  align-self: center;
+  border-radius: 250px 250px 0px 0px;
+  width: 100%;
+}
