@@ -21,22 +21,23 @@
   height: 100%;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
+  margin-bottom: -2.5em;
 }
 
 h3 {
   font-size: 25px;
   font-weight: 700;
-}
-
-.sub {
-  font-size: 20px;
-  font-weight: 500;
-  margin: 0;
+  margin-bottom: 0;
+  margin-left: 1em;
 }
 
 .aside {
+  display: flex;
+  position: relative;
+  align-self: center;
   font-size: 25px;
   font-weight: 500;
+  margin-right: 2em;
 }
 
 .addToCart {
@@ -49,4 +50,21 @@ h3 {
   height: 4em;
   border-style: none;
   border-radius: 50px;
+}
+
+.textCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+.sub {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 1em;
+  margin: 0;
+  margin-left: 0.5em;
 }
