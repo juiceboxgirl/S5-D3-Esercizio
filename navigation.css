@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  background-color: #fbf7e3;
+  height: 12em;
+  border-radius: 90px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+}
+
+li :not(:last-child) {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #f3df85;
+  color: #612406;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 1em;
+  width: 8em;
+  height: 4em;
+  border-style: none;
+  border-radius: 50px;
+  margin-right: 1em;
+}
+
+.shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  width: 9em;
+  border-radius: 60px;
+}
