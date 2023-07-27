@@ -39,6 +39,7 @@ h3 {
   font-weight: 500;
   margin-right: 2em;
   /*align-self: calc(50%); */
+  transform: translateY(10px);
 }
 
 .addToCart {
